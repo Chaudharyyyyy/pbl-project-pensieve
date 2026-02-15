@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Intolerance of Uncertainty",
+    "category": "psychology",
+    "subcategory": "cognitive",
+    "description": "The tendency to find uncertainty distressing and to respond with worry, avoidance, or attempts to gain control. People high in intolerance of uncertainty often seek excessive reassurance and have difficulty making decisions when outcomes are unclear.",
+    "source_citation": "Carleton et al. (2012), Journal of Anxiety Disorders",
+    "source_year": 2012,
+    "tags": ["anxiety", "control", "worry", "decision-making", "uncertainty"]
+  },
+  {
+    "name": "Cognitive Distortions",
+    "category": "psychology",
+    "subcategory": "CBT",
+    "description": "Systematic patterns of deviation from rational thinking, including all-or-nothing thinking, catastrophizing, overgeneralization, mental filtering, and jumping to conclusions. These thought patterns can maintain negative emotional states.",
+    "source_citation": "Beck (1976), Cognitive Therapy and the Emotional Disorders",
+    "source_year": 1976,
+    "tags": ["CBT", "thinking", "distortions", "beliefs", "therapy"]
+  },
+  {
+    "name": "Dichotomy of Control",
+    "category": "philosophy",
+    "subcategory": "stoicism",
+    "description": "A Stoic principle distinguishing between what is within our control (our thoughts, judgments, and voluntary actions) and what is not (external events, others' opinions, the past). Peace comes from focusing energy only on what we can influence.",
+    "source_citation": "Epictetus, Enchiridion (c. 125 CE)",
+    "source_year": 125,
+    "tags": ["stoicism", "control", "acceptance", "wisdom", "philosophy"]
+  },
+  {
+    "name": "Flow State",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "A state of complete absorption in an activity, characterized by intense focus, loss of self-consciousness, altered sense of time, and intrinsic enjoyment. Flow occurs when skill level matches challenge level.",
+    "source_citation": "Csikszentmihalyi (1990), Flow: The Psychology of Optimal Experience",
+    "source_year": 1990,
+    "tags": ["flow", "engagement", "focus", "performance", "happiness"]
+  },
+  {
+    "name": "Negative Visualization",
+    "category": "philosophy",
+    "subcategory": "stoicism",
+    "description": "A Stoic practice of contemplating worst-case scenarios to build psychological resilience, reduce anxiety about outcomes, and cultivate gratitude for what one currently has. Also known as premeditatio malorum.",
+    "source_citation": "Seneca, Letters from a Stoic (c. 65 CE)",
+    "source_year": 65,
+    "tags": ["stoicism", "resilience", "gratitude", "visualization", "preparation"]
+  },
+  {
+    "name": "Rumination",
+    "category": "psychology",
+    "subcategory": "cognitive",
+    "description": "The tendency to repetitively think about negative experiences, their causes, and their consequences without taking constructive action. Rumination is associated with prolonged negative mood and difficulty problem-solving.",
+    "source_citation": "Nolen-Hoeksema (1991), Journal of Abnormal Psychology",
+    "source_year": 1991,
+    "tags": ["rumination", "thinking", "repetition", "mood", "problem-solving"]
+  },
+  {
+    "name": "Self-Compassion",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "Treating oneself with the same kindness one would offer a good friend during times of failure or difficulty. Comprises self-kindness, recognition of common humanity, and mindful awareness of painful feelings.",
+    "source_citation": "Neff (2003), Self and Identity",
+    "source_year": 2003,
+    "tags": ["compassion", "kindness", "self-care", "mindfulness", "resilience"]
+  },
+  {
+    "name": "Growth Mindset",
+    "category": "psychology",
+    "subcategory": "motivation",
+    "description": "The belief that abilities and intelligence can be developed through effort, learning, and persistence. Contrasts with fixed mindset, where abilities are seen as static traits.",
+    "source_citation": "Dweck (2006), Mindset: The New Psychology of Success",
+    "source_year": 2006,
+    "tags": ["mindset", "growth", "learning", "effort", "motivation"]
+  },
+  {
+    "name": "Amor Fati",
+    "category": "philosophy",
+    "subcategory": "stoicism",
+    "description": "A Latin phrase meaning 'love of fate'—the practice of accepting and even embracing everything that happens in life, including suffering and loss, as necessary parts of one's unique path.",
+    "source_citation": "Nietzsche (1882), The Gay Science; Stoic origins",
+    "source_year": 1882,
+    "tags": ["stoicism", "acceptance", "fate", "amor-fati", "resilience"]
+  },
+  {
+    "name": "Emotional Granularity",
+    "category": "psychology",
+    "subcategory": "emotion regulation",
+    "description": "The ability to make fine-grained distinctions between similar emotional states. People with high emotional granularity can distinguish between feeling irritated, frustrated, and angry, which aids emotion regulation.",
+    "source_citation": "Barrett (2017), How Emotions Are Made",
+    "source_year": 2017,
+    "tags": ["emotions", "awareness", "vocabulary", "regulation", "differentiation"]
+  },
+  {
+    "name": "Values Clarification",
+    "category": "psychology",
+    "subcategory": "ACT",
+    "description": "The process of identifying what truly matters to you—your core values that give life meaning and direction. Living in alignment with values provides motivation and satisfaction even during difficulties.",
+    "source_citation": "Hayes et al. (2012), Acceptance and Commitment Therapy",
+    "source_year": 2012,
+    "tags": ["values", "meaning", "purpose", "direction", "ACT"]
+  },
+  {
+    "name": "Impermanence",
+    "category": "philosophy",
+    "subcategory": "buddhism",
+    "description": "The Buddhist concept (anicca) that all conditioned phenomena are in constant flux. Understanding impermanence reduces attachment and helps one appreciate present moments while accepting change.",
+    "source_citation": "Buddhist Pali Canon, Dhammapada",
+    "source_year": -500,
+    "tags": ["buddhism", "change", "impermanence", "attachment", "acceptance"]
+  },
+  {
+    "name": "Psychological Flexibility",
+    "category": "psychology",
+    "subcategory": "ACT",
+    "description": "The ability to fully contact the present moment and change or persist in behavior when doing so serves valued ends. It involves openness to experience, awareness, and engagement with life.",
+    "source_citation": "Kashdan & Rottenberg (2010), Clinical Psychology Review",
+    "source_year": 2010,
+    "tags": ["flexibility", "adaptation", "values", "acceptance", "mindfulness"]
+  },
+  {
+    "name": "Spotlight Effect",
+    "category": "psychology",
+    "subcategory": "social cognition",
+    "description": "The tendency to overestimate how much others notice and remember our appearance, actions, and social blunders. In reality, others are typically less focused on us than we assume.",
+    "source_citation": "Gilovich et al. (2000), Journal of Personality and Social Psychology",
+    "source_year": 2000,
+    "tags": ["social", "self-consciousness", "perception", "anxiety", "awareness"]
+  },
+  {
+    "name": "Hedonic Adaptation",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "The tendency to quickly return to a baseline level of happiness after positive or negative events. Understanding adaptation helps explain why material gains often fail to produce lasting satisfaction.",
+    "source_citation": "Brickman & Campbell (1971), Adaptation Level Theory",
+    "source_year": 1971,
+    "tags": ["happiness", "adaptation", "baseline", "satisfaction", "hedonic"]
+  },
+  {
+    "name": "Mindful Awareness",
+    "category": "psychology",
+    "subcategory": "mindfulness",
+    "description": "Non-judgmental attention to present-moment experiences, including thoughts, emotions, and sensations. Mindfulness creates space between stimulus and response, allowing more intentional choices.",
+    "source_citation": "Kabat-Zinn (1994), Wherever You Go, There You Are",
+    "source_year": 1994,
+    "tags": ["mindfulness", "awareness", "present", "attention", "non-judgment"]
+  },
+  {
+    "name": "Fundamental Attribution Error",
+    "category": "psychology",
+    "subcategory": "social cognition",
+    "description": "The tendency to overemphasize personality-based explanations for others' behavior while underemphasizing situational factors. We judge others by their actions but ourselves by our intentions.",
+    "source_citation": "Ross (1977), Advances in Experimental Social Psychology",
+    "source_year": 1977,
+    "tags": ["attribution", "judgment", "bias", "social", "perception"]
+  },
+  {
+    "name": "Meaning-Making",
+    "category": "philosophy",
+    "subcategory": "existentialism",
+    "description": "The existentialist view that meaning is not given but created through our choices, commitments, and how we respond to life's challenges. We are responsible for creating the meaning in our lives.",
+    "source_citation": "Frankl (1946), Man's Search for Meaning",
+    "source_year": 1946,
+    "tags": ["meaning", "purpose", "existentialism", "choice", "responsibility"]
+  },
+  {
+    "name": "Affect Labeling",
+    "category": "psychology",
+    "subcategory": "emotion regulation",
+    "description": "The practice of putting feelings into words, which has been shown to reduce the intensity of emotional experiences. Simply naming an emotion engages prefrontal regions that help regulate limbic activity.",
+    "source_citation": "Lieberman et al. (2007), Psychological Science",
+    "source_year": 2007,
+    "tags": ["emotions", "labeling", "regulation", "language", "processing"]
+  },
+  {
+    "name": "Beginner's Mind",
+    "category": "philosophy",
+    "subcategory": "zen",
+    "description": "A Zen concept (shoshin) of approaching situations with openness, eagerness, and lack of preconceptions, even when one is experienced. The beginner's mind is empty, ready to learn, and open to possibilities.",
+    "source_citation": "Suzuki (1970), Zen Mind, Beginner's Mind",
+    "source_year": 1970,
+    "tags": ["zen", "openness", "learning", "curiosity", "humility"]
+  },
+  {
+    "name": "Social Comparison",
+    "category": "psychology",
+    "subcategory": "social cognition",
+    "description": "The tendency to evaluate ourselves by comparing to others. Upward comparisons (to those 'better') can motivate or discourage; downward comparisons can boost self-esteem but may reduce empathy.",
+    "source_citation": "Festinger (1954), Human Relations",
+    "source_year": 1954,
+    "tags": ["comparison", "self-evaluation", "social", "self-esteem", "motivation"]
+  },
+  {
+    "name": "Cognitive Reappraisal",
+    "category": "psychology",
+    "subcategory": "emotion regulation",
+    "description": "Changing one's interpretation of an emotionally evocative situation to alter its emotional impact. Reappraisal is generally more effective than suppression for regulating emotions.",
+    "source_citation": "Gross (1998), Review of General Psychology",
+    "source_year": 1998,
+    "tags": ["reappraisal", "emotions", "interpretation", "regulation", "cognition"]
+  },
+  {
+    "name": "Authentic Living",
+    "category": "philosophy",
+    "subcategory": "existentialism",
+    "description": "Living in accordance with one's true self, values, and beliefs rather than conforming to external expectations or social pressures. Authenticity requires self-knowledge and courage.",
+    "source_citation": "Heidegger (1927), Being and Time",
+    "source_year": 1927,
+    "tags": ["authenticity", "self", "values", "existentialism", "identity"]
+  },
+  {
+    "name": "Negativity Bias",
+    "category": "psychology",
+    "subcategory": "cognitive",
+    "description": "The tendency for negative experiences, emotions, and information to have a greater impact on psychological states than neutral or positive ones. Bad is stronger than good in shaping thoughts and feelings.",
+    "source_citation": "Baumeister et al. (2001), Review of General Psychology",
+    "source_year": 2001,
+    "tags": ["negativity", "bias", "attention", "memory", "evolution"]
+  },
+  {
+    "name": "Memento Mori",
+    "category": "philosophy",
+    "subcategory": "stoicism",
+    "description": "The Stoic practice of contemplating one's mortality to clarify priorities, reduce trivial anxieties, and cultivate appreciation for life. Death awareness can paradoxically enhance engagement with living.",
+    "source_citation": "Marcus Aurelius, Meditations (c. 170 CE)",
+    "source_year": 170,
+    "tags": ["mortality", "stoicism", "perspective", "priorities", "death"]
+  },
+  {
+    "name": "Learned Helplessness",
+    "category": "psychology",
+    "subcategory": "clinical",
+    "description": "A state that occurs after repeated exposure to uncontrollable situations, leading to passivity and belief that one's actions have no effect. It can be unlearned through experiences of efficacy.",
+    "source_citation": "Seligman (1972), Annual Review of Medicine",
+    "source_year": 1972,
+    "tags": ["helplessness", "control", "passivity", "learning", "efficacy"]
+  },
+  {
+    "name": "Gratitude Practice",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "Deliberately focusing attention on things one is thankful for. Regular gratitude practice is associated with increased well-being, better relationships, and improved physical health.",
+    "source_citation": "Emmons & McCullough (2003), Journal of Personality and Social Psychology",
+    "source_year": 2003,
+    "tags": ["gratitude", "appreciation", "wellbeing", "practice", "positive"]
+  },
+  {
+    "name": "Attachment Styles",
+    "category": "psychology",
+    "subcategory": "developmental",
+    "description": "Patterns of relating to others formed in early childhood that influence adult relationships. Secure attachment involves comfort with intimacy and independence; insecure styles involve anxiety or avoidance.",
+    "source_citation": "Bowlby (1969), Attachment and Loss",
+    "source_year": 1969,
+    "tags": ["attachment", "relationships", "security", "patterns", "connection"]
+  },
+  {
+    "name": "Non-Attachment",
+    "category": "philosophy",
+    "subcategory": "buddhism",
+    "description": "The Buddhist practice of releasing clinging to outcomes, possessions, and even ideas about self. Non-attachment is not indifference but rather engaging fully while accepting impermanence.",
+    "source_citation": "Buddhist Pali Canon, Dhammapada",
+    "source_year": -500,
+    "tags": ["buddhism", "attachment", "letting-go", "freedom", "clinging"]
+  },
+  {
+    "name": "Self-Efficacy",
+    "category": "psychology",
+    "subcategory": "motivation",
+    "description": "Belief in one's capability to execute behaviors necessary to produce specific outcomes. High self-efficacy promotes effort, persistence, and resilience in the face of obstacles.",
+    "source_citation": "Bandura (1977), Psychological Review",
+    "source_year": 1977,
+    "tags": ["efficacy", "belief", "capability", "motivation", "confidence"]
+  },
+  {
+    "name": "Window of Tolerance",
+    "category": "psychology",
+    "subcategory": "trauma",
+    "description": "The zone of arousal in which a person can function most effectively. Within this window, emotions can be tolerated and processed; outside it, people become hyperaroused or hypoaroused.",
+    "source_citation": "Siegel (1999), The Developing Mind",
+    "source_year": 1999,
+    "tags": ["regulation", "arousal", "window", "tolerance", "stress"]
+  },
+  {
+    "name": "Locus of Control",
+    "category": "psychology",
+    "subcategory": "personality",
+    "description": "The degree to which people believe they have control over events affecting them. Internal locus sees outcomes as influenced by one's own actions; external locus attributes them to outside forces.",
+    "source_citation": "Rotter (1954), Social Learning and Clinical Psychology",
+    "source_year": 1954,
+    "tags": ["control", "locus", "agency", "personality", "belief"]
+  },
+  {
+    "name": "Broaden-and-Build Theory",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "The theory that positive emotions broaden thought-action repertoires and build lasting resources. Joy sparks play, interest sparks exploration, and contentment sparks savoring.",
+    "source_citation": "Fredrickson (2001), American Psychologist",
+    "source_year": 2001,
+    "tags": ["positive", "emotions", "broaden", "build", "resources"]
+  },
+  {
+    "name": "Confirmation Bias",
+    "category": "psychology",
+    "subcategory": "cognitive",
+    "description": "The tendency to search for, interpret, and recall information in ways that confirm pre-existing beliefs. We unconsciously favor evidence supporting what we already think.",
+    "source_citation": "Wason (1960), Quarterly Journal of Experimental Psychology",
+    "source_year": 1960,
+    "tags": ["bias", "confirmation", "beliefs", "reasoning", "judgment"]
+  },
+  {
+    "name": "Middle Path",
+    "category": "philosophy",
+    "subcategory": "buddhism",
+    "description": "The Buddhist teaching (majjhimā paṭipadā) of avoiding extremes of self-indulgence and self-denial. Balance and moderation lead to wisdom and liberation from suffering.",
+    "source_citation": "Buddha, First Sermon at Sarnath (c. 500 BCE)",
+    "source_year": -500,
+    "tags": ["buddhism", "balance", "moderation", "wisdom", "extremes"]
+  },
+  {
+    "name": "Impostor Phenomenon",
+    "category": "psychology",
+    "subcategory": "self-perception",
+    "description": "The experience of feeling like a fraud despite evidence of competence, accompanied by fear of being 'found out.' Common among high achievers and those entering new roles.",
+    "source_citation": "Clance & Imes (1978), Psychotherapy: Theory, Research & Practice",
+    "source_year": 1978,
+    "tags": ["impostor", "self-doubt", "competence", "achievement", "fraud"]
+  },
+  {
+    "name": "Equanimity",
+    "category": "philosophy",
+    "subcategory": "buddhism",
+    "description": "A state of psychological stability and composure that remains undisturbed by experience of or exposure to emotions, pain, or other phenomena. It involves accepting the present moment without resistance.",
+    "source_citation": "Buddhist Pali Canon, Upekkha",
+    "source_year": -500,
+    "tags": ["equanimity", "balance", "acceptance", "calm", "stability"]
+  },
+  {
+    "name": "Behavioral Activation",
+    "category": "psychology",
+    "subcategory": "CBT",
+    "description": "A therapeutic approach based on increasing engagement in valued activities, especially when motivation is low. Action often precedes motivation rather than following it.",
+    "source_citation": "Jacobson et al. (2001), Journal of Consulting and Clinical Psychology",
+    "source_year": 2001,
+    "tags": ["behavioral", "activation", "action", "motivation", "engagement"]
+  },
+  {
+    "name": "Sunk Cost Fallacy",
+    "category": "psychology",
+    "subcategory": "decision-making",
+    "description": "The tendency to continue investing in something because of previously invested resources (time, money, effort) rather than future value. Past investments are 'sunk' and shouldn't influence forward-looking decisions.",
+    "source_citation": "Arkes & Blumer (1985), Organizational Behavior and Human Decision Processes",
+    "source_year": 1985,
+    "tags": ["sunk-cost", "fallacy", "decision", "investment", "bias"]
+  },
+  {
+    "name": "Wise Mind",
+    "category": "psychology",
+    "subcategory": "DBT",
+    "description": "In Dialectical Behavior Therapy, the synthesis of emotion mind (feelings-driven) and reasonable mind (logic-driven). Wise mind integrates intuition, reason, and values for balanced decision-making.",
+    "source_citation": "Linehan (1993), Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+    "source_year": 1993,
+    "tags": ["DBT", "wisdom", "balance", "emotion", "reason"]
+  },
+  {
+    "name": "Projection",
+    "category": "psychology",
+    "subcategory": "psychodynamic",
+    "description": "A defense mechanism where unacceptable thoughts, feelings, or traits are attributed to others rather than acknowledged in oneself. What we criticize in others often reflects our own disowned aspects.",
+    "source_citation": "Freud (1894), The Neuro-Psychoses of Defence",
+    "source_year": 1894,
+    "tags": ["projection", "defense", "unconscious", "others", "shadow"]
+  },
+  {
+    "name": "Post-Traumatic Growth",
+    "category": "psychology",
+    "subcategory": "trauma",
+    "description": "Positive psychological change experienced as a result of struggling with highly challenging life circumstances. Growth can include new possibilities, relationships, strength, spirituality, and appreciation for life.",
+    "source_citation": "Tedeschi & Calhoun (1996), Journal of Traumatic Stress",
+    "source_year": 1996,
+    "tags": ["growth", "trauma", "resilience", "transformation", "strength"]
+  },
+  {
+    "name": "Eudaimonic Well-Being",
+    "category": "philosophy",
+    "subcategory": "virtue ethics",
+    "description": "Well-being derived from living in accordance with one's true self and potential, pursuing meaning and excellence rather than mere pleasure. Contrasts with hedonic (pleasure-based) well-being.",
+    "source_citation": "Aristotle, Nicomachean Ethics (c. 340 BCE)",
+    "source_year": -340,
+    "tags": ["eudaimonia", "meaning", "flourishing", "virtue", "wellbeing"]
+  },
+  {
+    "name": "Cognitive Fusion",
+    "category": "psychology",
+    "subcategory": "ACT",
+    "description": "The tendency to become entangled with thoughts, treating them as literal truths rather than mental events. Defusion involves observing thoughts without being controlled by them.",
+    "source_citation": "Hayes et al. (2012), Acceptance and Commitment Therapy",
+    "source_year": 2012,
+    "tags": ["fusion", "thoughts", "defusion", "ACT", "mindfulness"]
+  },
+  {
+    "name": "Radical Acceptance",
+    "category": "psychology",
+    "subcategory": "DBT",
+    "description": "Completely and totally accepting reality as it is, without judgment or attempts to change it. Radical acceptance does not mean approval—it means acknowledging what is rather than fighting it.",
+    "source_citation": "Linehan (1993), Skills Training Manual for Treating Borderline Personality Disorder",
+    "source_year": 1993,
+    "tags": ["acceptance", "DBT", "radical", "reality", "letting-go"]
+  },
+  {
+    "name": "Peak Experiences",
+    "category": "psychology",
+    "subcategory": "humanistic",
+    "description": "Moments of profound happiness and harmony with the world, often described as transcendent or mystical. Peak experiences offer glimpses of self-actualization and are characterized by joy and meaning.",
+    "source_citation": "Maslow (1964), Religions, Values, and Peak-Experiences",
+    "source_year": 1964,
+    "tags": ["peak", "experiences", "transcendence", "joy", "self-actualization"]
+  },
+  {
+    "name": "Upward Spiral",
+    "category": "psychology",
+    "subcategory": "positive psychology",
+    "description": "The positive feedback loop where positive emotions broaden thinking, which builds resources, which generates more positive emotions. Small positive interventions can create cascading benefits.",
+    "source_citation": "Fredrickson & Joiner (2002), Psychological Science",
+    "source_year": 2002,
+    "tags": ["positive", "spiral", "emotions", "momentum", "growth"]
+  },
+  {
+    "name": "Psychological Boundaries",
+    "category": "psychology",
+    "subcategory": "interpersonal",
+    "description": "The limits we set to protect our emotional and mental well-being in relationships. Healthy boundaries define where we end and others begin, enabling intimacy without loss of self.",
+    "source_citation": "Cloud & Townsend (1992), Boundaries",
+    "source_year": 1992,
+    "tags": ["boundaries", "relationships", "self", "limits", "protection"]
+  },
+  {
+    "name": "Paradoxical Intention",
+    "category": "psychology",
+    "subcategory": "logotherapy",
+    "description": "A technique of deliberately intending the very thing one fears or trying to bring about what one is trying to avoid. Often reduces anxiety by removing the struggle against symptoms.",
+    "source_citation": "Frankl (1960), Paradoxical Intention",
+    "source_year": 1960,
+    "tags": ["paradox", "intention", "anxiety", "humor", "acceptance"]
+  },
+  {
+    "name": "Second Arrow",
+    "category": "philosophy",
+    "subcategory": "buddhism",
+    "description": "A Buddhist teaching that while we cannot avoid the first arrow of pain (initial suffering), we often shoot ourselves with a second arrow through our reaction—adding resistance, self-criticism, or rumination.",
+    "source_citation": "Buddhist Pali Canon, Sallatha Sutta",
+    "source_year": -500,
+    "tags": ["buddhism", "suffering", "reaction", "resistance", "acceptance"]
+  },
+  {
+    "name": "Explanatory Style",
+    "category": "psychology",
+    "subcategory": "cognitive",
+    "description": "The habitual way we explain events to ourselves along dimensions of permanence, pervasiveness, and personalization. Optimistic style sees setbacks as temporary, specific, and external.",
+    "source_citation": "Seligman (1990), Learned Optimism",
+    "source_year": 1990,
+    "tags": ["optimism", "explanation", "attribution", "style", "resilience"]
+  },
+  {
+    "name": "Interpersonal Effectiveness",
+    "category": "psychology",
+    "subcategory": "DBT",
+    "description": "Skills for asking for what you need, saying no, and coping with interpersonal conflict while maintaining self-respect and relationships. Balances objectives, relationships, and self-respect.",
+    "source_citation": "Linehan (1993), Skills Training Manual for Treating Borderline Personality Disorder",
+    "source_year": 1993,
+    "tags": ["DBT", "interpersonal", "communication", "assertiveness", "relationships"]
+  }
+]

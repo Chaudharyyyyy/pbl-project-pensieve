@@ -1,0 +1,673 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   PENSIEVE DESIGN SYSTEM
+   Apple-Inspired Interface Variables
+   ============================================ */
+
+:root {
+  /* Background Layers */
+  --bg-base: #FAFBFC;
+  --bg-elevated: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-gradient-start: #FAFBFC;
+  --bg-gradient-end: #F5F7FA;
+  
+  /* Text Hierarchy */
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6B6B;
+  --text-tertiary: #9B9B9B;
+  --text-placeholder: #C0C0C0;
+  
+  /* Accent Colors */
+  --accent-primary: #007AFF;
+  --accent-success: #34C759;
+  --accent-warning: #FF9500;
+  --accent-insight: #5856D6;
+  --accent-cursor: #FFB88C;
+  
+  /* Brain Colors */
+  --brain-base-start: #E8EFFF;
+  --brain-base-end: #F0F4FF;
+  --brain-active-1: #4FACFE;
+  --brain-active-2: #00F2FE;
+  --brain-active-3: #B490F5;
+  --brain-thinking: #FFB88C;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-brain: 0 0 60px rgba(79, 172, 254, 0.3);
+  
+  /* Animation */
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 800ms;
+  
+  /* Typography */
+  --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-text: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: 'SF Mono', Monaco, Consolas, monospace;
+  
+  /* Spacing */
+  --content-max-width: 800px;
+  --brain-size-desktop: 200px;
+  --brain-size-mobile: 60px;
+}
+
+/* Dark Mode */
+.dark {
+  --bg-base: #000000;
+  --bg-elevated: #1C1C1E;
+  --bg-card: #1C1C1E;
+  --bg-gradient-start: #0A0A0A;
+  --bg-gradient-end: #000000;
+  
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(235, 235, 245, 0.6);
+  --text-tertiary: rgba(235, 235, 245, 0.4);
+  --text-placeholder: rgba(235, 235, 245, 0.3);
+  
+  --brain-base-start: #1A2332;
+  --brain-base-end: #0F1823;
+  
+  --shadow-brain: 0 0 80px rgba(79, 172, 254, 0.4);
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-text);
+  color: var(--text-primary);
+  background: linear-gradient(180deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.015;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  z-index: 9999;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+.text-hero {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.text-title {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.text-heading {
+  font-family: var(--font-text);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.text-body-large {
+  font-family: var(--font-text);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.text-body {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-caption {
+  font-family: var(--font-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.text-small {
+  font-family: var(--font-text);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-tertiary);
+}
+
+/* ============================================
+   JOURNAL EDITOR
+   ============================================ */
+
+.journal-container {
+  position: relative;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 60vh;
+}
+
+.journal-editor {
+  width: 100%;
+  min-height: 50vh;
+  padding: 0;
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  caret-color: var(--accent-cursor);
+  caret-width: 3px;
+}
+
+.journal-editor::placeholder {
+  color: var(--text-placeholder);
+  transition: opacity var(--duration-normal) var(--ease-out-quart);
+}
+
+.journal-editor:focus::placeholder {
+  opacity: 0.5;
+}
+
+/* Word count - appears on hover */
+.word-count {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--ease-out-quart);
+}
+
+.journal-container:hover .word-count,
+.journal-editor:focus ~ .word-count {
+  opacity: 1;
+}
+
+/* ============================================
+   AUTO-SAVE INDICATOR
+   ============================================ */
+
+.autosave-indicator {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--bg-elevated);
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+  font-size: 13px;
+  color: var(--text-secondary);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all var(--duration-normal) var(--ease-out-quart);
+}
+
+.autosave-indicator.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.autosave-indicator.saving {
+  color: var(--accent-primary);
+}
+
+.autosave-indicator.saved {
+  color: var(--accent-success);
+}
+
+.autosave-indicator svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ============================================
+   REFLECTION CARDS
+   ============================================ */
+
+.reflection-card {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: var(--shadow-md);
+  border-left: 3px solid var(--accent-insight);
+  overflow: hidden;
+}
+
+.reflection-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(88, 86, 214, 0.02) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.reflection-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.reflection-brain {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.reflection-content {
+  flex: 1;
+}
+
+.reflection-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.reflection-text strong {
+  color: var(--accent-insight);
+  font-weight: 600;
+}
+
+/* Expandable Section */
+.reflection-expand {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.reflection-expand-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--duration-fast) var(--ease-out-quart);
+}
+
+.reflection-expand-trigger:hover {
+  background: rgba(0, 0, 0, 0.02);
+  color: var(--text-primary);
+}
+
+.reflection-expand-trigger svg {
+  transition: transform var(--duration-normal) var(--ease-out-quart);
+}
+
+.reflection-expand-trigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.reflection-expand-content {
+  padding: 0 16px 16px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Concept Tags */
+.concept-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.concept-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.08) 0%, rgba(180, 144, 245, 0.08) 100%);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent-insight);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out-quart);
+}
+
+.concept-tag:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: var(--shadow-sm);
+}
+
+.concept-tag svg {
+  width: 14px;
+  height: 14px;
+  transition: transform var(--duration-fast) var(--ease-out-quart);
+}
+
+.concept-tag:hover svg {
+  transform: translateX(3px);
+}
+
+/* Metadata Footer */
+.reflection-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.confidence-dots {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.confidence-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-insight);
+  opacity: 0.3;
+}
+
+.confidence-dot.active {
+  opacity: 1;
+}
+
+/* ============================================
+   HEADER / NAVIGATION
+   ============================================ */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgba(250, 251, 252, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.dark .app-header {
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+
+.app-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.app-logo-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--accent-primary);
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   BRAIN ORB CONTAINER
+   ============================================ */
+
+.brain-orb-container {
+  position: fixed;
+  top: 80px;
+  right: 24px;
+  width: var(--brain-size-desktop);
+  height: var(--brain-size-desktop);
+  z-index: 50;
+  cursor: pointer;
+  transition: all var(--duration-slow) var(--ease-out-expo);
+}
+
+.brain-orb-container.minimized {
+  width: 80px;
+  height: 80px;
+  top: 8px;
+  right: 100px;
+}
+
+.brain-orb-container.expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vmin;
+  height: 80vmin;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .brain-orb-container {
+    width: var(--brain-size-mobile);
+    height: var(--brain-size-mobile);
+    top: 16px;
+    right: 16px;
+  }
+}
+
+/* ============================================
+   EMPTY STATES
+   ============================================ */
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 24px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.empty-state-brain {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 24px;
+}
+
+.empty-state-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.empty-state-text {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.empty-state-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  background: var(--accent-primary);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out-quart);
+}
+
+.empty-state-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 122, 255, 0.3);
+}
+
+/* Streak indicator */
+.streak-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #FF9500 0%, #FF6600 100%);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.98); }
+}
+
+.animate-fade-in {
+  animation: fadeIn var(--duration-normal) var(--ease-out-quart);
+}
+
+.animate-slide-up {
+  animation: slideUp var(--duration-normal) var(--ease-out-quart);
+}
+
+.animate-scale-in {
+  animation: scaleIn var(--duration-normal) var(--ease-out-expo);
+}
+
+.animate-pulse {
+  animation: pulse 2s var(--ease-in-out-quart) infinite;
+}
+
+.animate-breathe {
+  animation: breathe 4s var(--ease-in-out-quart) infinite;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   DISCLAIMER
+   ============================================ */
+
+.disclaimer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  font-size: 11px;
+  font-style: italic;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}

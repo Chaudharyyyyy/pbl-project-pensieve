@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+.turbo/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# ML Models (large files)
+models/*.bin
+models/*.pt
+models/*.h5
+models/*.onnx
+
+# Data
+data/*.db
+data/*.sqlite
