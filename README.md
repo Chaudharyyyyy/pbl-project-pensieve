@@ -177,18 +177,12 @@ cd frontend
 npm test
 ```
 
-## Concept Database
+## Database
 
 Pensieve includes 54 curated psychological and philosophical concepts:
 
 - **Psychology**: CBT, positive psychology, attachment theory, emotion regulation
 - **Philosophy**: Stoicism, existentialism, Buddhist psychology
 - **Research**: Peer-reviewed findings with citations
-
-## License
-
-Internal Use Only
-
----
 
 *"Pensieve learns with you, not from you. Your patterns stay yours—they never improve our system for others."*
